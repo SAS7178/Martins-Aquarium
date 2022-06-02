@@ -1,0 +1,18 @@
+.fish__image {
+   width: 3px;
+}
+
+.fishList {
+   display: flex;
+   flex-wrap: wrap;
+}
+
+
+body {
+   background-color: aqua;
+
+}
+
+.body {
+   background-color:  black;
+}
