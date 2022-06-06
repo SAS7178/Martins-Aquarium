@@ -1,0 +1,82 @@
+/*background of whole homepage*/
+.fullPage {
+   background-color: cornflowerblue;
+}
+
+/* Martins Aquarium Title*/
+.title {
+   display: flex;
+   justify-content: center;
+   background: blue;
+  }
+
+/* "Fish Collection" under title*/
+.underTitle {
+   font-style: oblique;
+   display: flex;
+   justify-content: center;
+   font: bold;
+   border-radius: 10%;
+}
+
+/* section containing main page info(layout)*/
+
+/*each fish object*/
+.fishList {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-evenly;
+}
+
+/* aside bar encompassing sidebar info */
+.asideBorder {    
+   display: flex;
+   flex-direction: column;
+   border: 2px solid black;
+}
+
+
+.fish_card {
+   background-color:rgb(174, 174, 32);
+   border: 3px solid;
+   border-bottom: 8px solid;
+   border-radius: 10%;
+   flex-basis: 20%;
+   /* width: 75%; */
+   height: 10em;
+}  
+
+/*fish images*/
+.fish__image {
+   display: flex;
+   
+   width: 100px;
+   border: 2px solid;
+   border-radius: 10%;
+}
+
+/*aside title "Fish Tips" */
+.asideTitle {
+   color:rgb(4, 60, 4);
+}
+.page_info {
+display: flex;
+}
+/*aside section encompassing all tips under title "*"*/
+.tips {
+   color: chartreuse;
+   text-shadow: 2px;text-decoration: wavy;
+}
+.location_Card {
+   display: flex;
+   
+   /* width: 300px; */
+}
+.location_quote{
+   display: flex;
+   justify-content: start;
+}
+
+.location__image {
+width: 200px;
+}

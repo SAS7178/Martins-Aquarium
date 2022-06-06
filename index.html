@@ -2,18 +2,33 @@
 <html lang="en">
 
 <head>
-
+    <style></style>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Martin Aquarium(local)</title>
-    <link ref="stylesheet" href="main.css" />
+    <title class="title">Martin Aquarium(local)</title>
+    <link rel="stylesheet" href="styles/main.css">
 </head>
 
-<body>
-    <h1>"Martins Aquarium"</h1>
-    <h2>Fish</h2>
-    <div id='fishList'></div>
+<body class="fullPage">
+    <h1 class="title">"Martins Aquarium"</h1>
+    <h2 class="underTitle"><strong>Fish Collection</strong></h2>
+
+    <section class="page_info">
+        <div id="fishList"></div>
+        <div class="asideBorder">
+            <h2 class="asideTitle">"Fish Tips"</h2>
+            <section class="tips">
+                <div id="tip1">'* tank cleaning'</div>
+                <div id="tip2">'* water temperature'</div>
+                <div id="tip3">'* water salinity'</div>
+            </section>
+        </div>
+    </section>
+    <div id="locationsList"></div>
+    
+
     <script type="module" src="./scripts/main.js"></script>
 </body>
+
 </html>

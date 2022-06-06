@@ -81,7 +81,7 @@ const database = {
         },
         {
             id: 9,
-            image: "chuck norris image.jpeg",
+            image: "chuck_norris_image.jpeg",
             name: 'Chuck Norris',
             food: 'heavy metals',
             species: 'Most of them',
@@ -90,7 +90,35 @@ const database = {
         }
 
     ]
+
 }
+const harvest_Locations = { 
+       locations: [
+        {
+            id: 1,
+            locationImage: "https://media.gettyimages.com/photos/ruhrsee-picture-id563272133?s=2048x2048",
+            location: "Lake Placid",
+            qoute:"Beware for Crocs!!"
+        },
+        {
+            id: 2,
+            locationImage: "https://media.gettyimages.com/photos/ruhrsee-picture-id563272133?s=2048x2048",
+            location: "Amazon River",
+            qoute:"Beware of Anacondas!"
+        },
+        {
+            id: 3,
+            locationImage: "https://media.gettyimages.com/photos/coast-of-cefalu-picture-id142116239?s=2048x2048",
+            location: "Meditteranian Sea",
+            qoute:"Enjoy the Seafood!"
+        }
+    ]}
+
+
+
 export const getFish = () => {
     return database.fish.map(fish => ({ ...fish }))
+}
+export const getLocations = () => {
+    return harvest_Locations.locations.map(locations => ({ ...locations }))
 }
