@@ -13,7 +13,7 @@ export const fishList = () => {
 
         // Why is there a backtick used for this string?
         htmlString += `<section class="fish_card">
-            <div><img  class="fish__image image--card" src="images/${fish.image}" /></div>
+            <div class="image"><img  class="fish__image image--card" src="images/${fish.image}" /></div>
             <div class="fish__name"><b>${fish.name}</b></div>
             <div class="fish__species">${fish.species}</div>
             <div class="fish__length">${fish.length}</div>

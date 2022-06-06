@@ -11,7 +11,7 @@ export const locationsList = () => {
         HTMLString += `<section class= "location_Card">
         <div class= "location_quote">${location.qoute}</div>
         <div><img  class="location__image image--card" src="${location.locationImage}" /></div>
-        <div class= "location_name">${location.location}</div>        `
+        <div class= "location_name">${location.location}</div></section>        `
     }
     HTMLString += `</article>`
 
